@@ -102,6 +102,22 @@
             background-color: #45a049;
         }
 
+        /* Estilo para el botón de oferta */
+        .offer-button {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        .offer-button:hover {
+            background-color: #d60000;
+        }
+
         /* Estilo para el texto BIENVENIDOS */
         .welcome-text {
             font-size: 2.5em; /* Tamaño del texto */
@@ -164,11 +180,15 @@
         <section class="product-section">
             <div>
                 <h3>Crema Facial</h3>
-                <p>Crema a base de Aloe Vera para una piel suave y saludable.</p>
+                <p>Nuestra crema facial es muy hidratante para las personas con piel grasa, que sufren con acné o imperfecciones. Nuestros productos están hechos 100% artesanal, no contienen ningún tipo de químico, están hechos a base de sábila, vitamina E y aromatizante.</p>
                 <button onclick="toggleDetails()">Ver detalles</button>
+                <br>
+                <button class="offer-button">OFERTA 2x1, solo por este mes</button>
             </div>
             <div>
                 <img src="imagen-crema.jpg" alt="Crema Facial">
+                <br>
+                <img src="objetivos.jpg" alt="Objetivos">
             </div>
         </section>
 
